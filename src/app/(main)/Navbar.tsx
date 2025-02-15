@@ -11,7 +11,7 @@ import { useTheme } from "next-themes";
 export default function Navbar() {
   const { theme } = useTheme();
   return (
-    <header className="shadow-lg">
+    <header className="border-b shadow-lg">
       <div className="mx-auto my-2 flex max-w-7xl items-center justify-between gap-3">
         <Link href="/resumes" className="flex items-center gap-2">
           <Image
